@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  background-color: #28527a;
+  font-family: 'Open Sans';
+}
+
+h1, h2 {
+  font-family: 'Poppins'
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(70,70,70);
+}
+
+a:hover {
+  color: black;
+}
+
+div {
+  background: white;
+  padding: 25px;
+  margin: 20;
+}
+
+.box-white {
+  background: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px;
+  width: 700px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.imagem-circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.btn-red {
+  background-color: #28527a;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px;
+}
+
+.btn-red:hover {
+  background-color: #6ddccf;
+  color: white;
+}
+
+.line-list {
+  list-style: none;
+  padding: 0;
+}
+
+.line-list li {
+  display: inline-block;
+}
+
+.socialm {
+  font-size: 50px;
+  color: #28527a;
+  margin: 10px, 25px;
+}
+
+.socialm:hover {
+  color: #6ddccf;
+}
+
+.activity-photo {
+  width: 600px;
+  height: 450px;
+  box-shadow: 0 3px 8px;
+}
+
+.solo-photo {
+  width: 500px;
+  height: 650px;
+  box-shadow: 0 3px 8px;
+}
+
+.hobby-photo {
+  width: 500px;
+  height: 350px;
+  box-shadow: 0 3px 8px;
+}
+
+.atl {
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  text-align: center;
+  padding: 17px;
+  margin: 17px;
+}
+
+.list-a {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-descrip {
+  padding: 10px;
+  text-align: justify;
+}
+
+@media (max-width: 960px) {
+  .box-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .box-white {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  .box-white {
+    width: 200px;
+  }
+}
